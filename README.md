@@ -9,3 +9,6 @@ The following machine image is built from Photon OS 4.0 arm64 OVA, and includes:
 
 ## pre-built machine image
 https://cappi.s3.us-west-2.amazonaws.com/kube-v1.21.2-photon-4-arm64.ova
+
+## quickstart
+simply import the ova into your esxi on arm vsphere cluster, then initialize a local (x86) capi mgmt cluster via `kind`. Once mgmt cluster is up, create workload cluster with the machine image.
